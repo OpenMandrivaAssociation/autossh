@@ -1,11 +1,7 @@
-%define name	autossh
-%define version 1.4a
-%define release %mkrel 1
-
 Summary:	Automatically restart SSH sessions and tunnels
-Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Name:		autossh
+Version:	1.4a
+Release:	%mkrel 2
 License:	BSD
 Group:		Networking/Other
 URL:		http://www.harding.motd.ca/autossh/
@@ -23,6 +19,7 @@ traffic. The idea and the mechanism are from rstunnel
 %prep
 
 %setup -q
+
 %build
 chmod 644 autossh.host rscreen
 %configure
@@ -44,5 +41,3 @@ install -m644 autossh.1 %{buildroot}%{_mandir}/man1/
 %doc CHANGES README autossh.host rscreen
 %{_bindir}/autossh
 %{_mandir}/man1/autossh.1*
-
-
