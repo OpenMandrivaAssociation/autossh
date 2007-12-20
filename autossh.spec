@@ -8,6 +8,7 @@ URL:		http://www.harding.motd.ca/autossh/
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	openssh-clients
 Requires:	openssh
+BuildRoot:	%{_tmppath}/%{name}-root
 
 %description 
 autossh is a program to start a copy of ssh and monitor it,
