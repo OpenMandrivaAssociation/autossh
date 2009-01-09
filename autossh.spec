@@ -1,7 +1,7 @@
 Summary:	Automatically restart SSH sessions and tunnels
 Name:		autossh
-Version:	1.4a
-Release:	%mkrel 4
+Version:	1.4b
+Release:	%mkrel 1
 License:	BSD
 Group:		Networking/Other
 URL:		http://www.harding.motd.ca/autossh/
@@ -10,11 +10,11 @@ BuildRequires:	openssh-clients
 Requires:	openssh
 BuildRoot:	%{_tmppath}/%{name}-root
 
-%description 
+%description
 autossh is a program to start a copy of ssh and monitor it,
 restarting it as necessary should it die or stop passing
 traffic. The idea and the mechanism are from rstunnel
-(Reliable SSH Tunnel), but implemented in C. 
+(Reliable SSH Tunnel), but implemented in C.
 
 %prep
 
