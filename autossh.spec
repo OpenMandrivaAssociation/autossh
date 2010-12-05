@@ -1,7 +1,7 @@
 Summary:	Automatically restart SSH sessions and tunnels
 Name:		autossh
 Version:	1.4b
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	BSD
 Group:		Networking/Other
 URL:		http://www.harding.motd.ca/autossh/
