@@ -4,7 +4,7 @@ Version:	1.4g
 Release:	1
 License:	BSD
 Group:		Networking/Other
-URL:		http://www.harding.motd.ca/autossh/
+URL:		https://www.harding.motd.ca/autossh/
 Source:		http://www.harding.motd.ca/autossh/%{name}-%{version}.tgz
 BuildRequires:	openssh-clients
 Requires:	openssh
